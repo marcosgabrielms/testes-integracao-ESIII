@@ -1,0 +1,41 @@
+# Ambiente virtual e caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Configurações locais
+.vscode/
+.idea/
+*.code-workspace
+.env
+.env.*
+!.env.example
+
+# Bancos locais e arquivos temporários
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+*.tmp
+*.bak
+*.log
+
+# Relatórios e artefatos gerados
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+build/
+dist/
+*.egg-info/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
